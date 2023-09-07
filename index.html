@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-div">
+            <p>CO2 Emissions Calculator*
+                <br>
+            *from 01st of November 2021 for selected products</p>
+            <img src="./images/earth.jpg" alt="earth" />
+            <div id="count">15,506,970</div>
+            
+        </div>
+        <div class="right-div">
+            <h2>Choose a product</h2>
+            <div class="images" id="items">
+                <div>
+                    <img src="./images/1-1.jpg" alt="1" id="100" >
+                    <p>Lettuce Lollo Mix</p>
+                </div>
+                <div>
+                    <img src="./images/2.jpg" alt="1" id="200" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/3.jpg" alt="1" id="300" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/4.jpg" alt="1" id="400" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/5.jpg" alt="1" id="500" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/6.jpg" alt="1" id="600" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/7.jpg" alt="1" id="700" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+                <div>
+                    <img src="./images/8.jpg" alt="1" id="800" >
+                    <p>Local Mix Color Capsicump </p>
+                </div>
+            </div>
+
+                
+                
+          
+            <h2 class="txt">choose the Quantity</h2>
+            <div id="slider">
+                <input type="range" id="range-button" min="100" max="1000" step="1" value="100"/>
+                <div>
+                    <div id="num">100</div>
+                    <div id="kgs">Kgs</div>
+                </div>
+            </div>
+
+            <div id="details">
+                <div class="upper-section">
+                    <div>Estimated Emission Saved</div>
+                    <div id="qty">304</div>
+                    <div>Kgs of CO2</div>
+                </div>
+                <hr>
+                <div class="lower-section">
+                    <div id="wrap">This is equivalent to the emissions
+                        of mid size cars over one year</div>
+                        <div id="car">10</div>
+                        <div><img src="./images/Vector.png" alt="car" id="car-img" ></div>
+                </div>
+            </div>
+            *Fresh on Table has partnered with Carboncare, which has the latest and most comprehensive global emissions calculator, based on the European Standard EN16258. It was developed over five years with various partners (industry, ETH, Swiss federal authorities). Over 3.5 million effective, realistic and frequently updated measurements provide the basis for these calculations.
+
+**The above calculations are based on assumptions that you are based in the UAE and are sourcing products through local farms instead of importing the same from their conventional countries of origin
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
